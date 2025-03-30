@@ -1,1 +1,4 @@
-Deno.serve({ port: 8003 }, (req) => new Response("Hello, Deno Deploy! 🍟🚀"));
+Deno.serve(
+  { port: 8003 },
+  (request) => new Response("Hello, Deno Deploy! 🍟🚀")
+);
